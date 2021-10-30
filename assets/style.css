@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #555555;
+}
+
+header {
+  background-color: #D9E4DD;
+}
+
+header ul {
+  padding: 20px 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+
+.main-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.main-section h1 {
+  font-size: 50px;
+  color: #FBF7F0;
+}
+
+.box {
+  background-color: #CDC9C3;
+  height: 300px;
+  width: 300px;
+  margin: 40px auto 0;
+  border-radius: 5px;
+  color: #555555;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.contact-section {
+  background-color: #FBF7F0;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  margin: 10px 0;
+}
+
+form .btn {
+  background-color: #555555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #CDC9C3;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
